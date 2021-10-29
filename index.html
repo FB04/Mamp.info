@@ -6,159 +6,474 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>MAMP.INFO</title>
 
-  </head>
-  <body>
+
+
+
+
+    <!--style-->
+
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
-      body {
-        font-size: 25px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+        
+     
+      body{
+        font-family:
+        font-size:25px;
+        background-color:rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+      }
+      nav{
+        font-family: 'IM Fell English SC', serif;
+        font-size: 20px;
+        background-color: rgb(216, 106, 55);
+      }
+      footer{
+          font-family: 'IM Fell English SC', serif;
+          font-size:16px;
+          background-color: rgb(211, 211, 211);
+      }
+      p{
+        font-size:20px;
       }
       h1{
-        font-family: 'Kalam', cursive;
-        font-size: 50px;
-        color: rgb(58, 1, 58);
+        font-size:30px;
       }
-      nav {
-        font-family: 'Goudy Bookletter 1911', serif;
 
-      }
+    
     </style>
 
-    <!-- navbar col menù -->
+
+
+
+
+
+    <title>TIME EDITION</title>
+  </head>
+  <body>
+      <div class="container-fluid">
+
+      </div>
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Bootstrap dont touch-->
+
+
+
+
+
+    <!--navbar-->
+
+    <nav class="navbar navbar-inverse" style="background-color: #fd7e14;">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/immagine3.jpg"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="orto/https://www.mamp.info/en/mamp-pro/">MAMP PRO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="giardino/https://www.mamp.info/en/mamp/">MAMP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="animali/https://www.mamp.info/namo/en/">NAMO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="agricoltura/https://www.mamp.info/timeedition/en/#">More products</a>
-              </li>
-            </ul>
+
+
+      <!-- Navbar content -->
+    <button class="navbar-toggler" type="button" 
+    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+    aria-expanded="false" aria-label="Attiva/disattiva navigazione">
+      </button>
+
+
+    
+          <a class="navbar-brand" href="https://www.mamp.info/en/mamp-pro/windows/l">MAMP PRO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <li><a class="dropdown-item" class="nav-link" href="https://www.mamp.info/en/mamp/windows/l">MAMP</a></li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                
+
             
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">🔍</button>
-            </form>
+                <a class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand"href="https://www.mamp.info/namo/en/">NAMO</a></li>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand"">Più prodotti</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Mamp pro</a>
+                              </li>
+                              <li class="nav-item">
+                                <li><a class="dropdown-item" class="nav-link"  href="https://www.mamp.info/en/mamp/windows/l">MAMP</a></li>
+                              </li>
+                              <li class="nav-item">
+                                <li><a class="dropdown-item" class="nav-link"  href="https://www.mamp.info/namo/en/">NAMO</a></li>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Più prodotti
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item"href="https://www.mamp.info/timeedition/en/">TIME EDITION</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item"  href="https://www.mamp.info/better-ears/de/">ORECCHIE MIGLIORI</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="https://www.mamp.info/receiver/de/">RICEVITORE</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item"href="https://www.mamp.info/b-flat/de/">APPARTAMENTO B</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                            </ul>
+                              </li>
+                            </ul>
+                          </div>
+        
+            </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </li>
+            </div>
+            </ul>
+            <div class="container-fluid">
+                </div>
+                <a class="navbar-brand" class="dropdown-item" class="nav-link"  href="https://www.mamp.info/en/jobs/">Lavori</a>
+                      </div>
+                      <a class="navbar-brand" class="dropdown-item" class="nav-link"  href="https://www.mamp.info/en/support/">Supporti</a>
+                    </div>
+                    <a class="navbar-brand" class="dropdown-item" class="nav-link"  href="https://www.mamp.info/timeedition/de/">DE</a>
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                  </form>
+                </div>
           </div>
         </div>
       </nav>
-    
-    <!-- slider di foto-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/immagine1.jpg" class="d-block w-100" alt="...">
-        </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </nav>
+    </nav>
+    </nav>
+</nav>
+    <span class="navbar-toggler-icon"></span>
 
-    <!-- testo di benvenuto-->
-    <div class="container">
-       <h1></h1>
-        <p>
-        </p>
-    </div>
 
-    <!-- card con le attrazioni iniziali-->
-    <div class="container">
-      <div class="row">
+      <!-- carousel-->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+
         
-    <div class="card" style="width: 20rem;">
-      <img src="images/ortocard.jpg" height="400px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">MAMP PRO</h5>
-        <p class="card-text"></p>
-        <a href="orto/orto.html" class="btn btn-primary">Più info 👆</a>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images (1)/home (1).JPG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 30PX;">Scarica dal Mac App Store Acquista subito l' app macOS</h5>
+              
+            </div>
+          </div>
+              
+
+        </div>
+
+
+        <br>
+      <br>
+
+
+
+
+
+
+
+      <!-- testo -->
+      <div style=”border: 1px solid #212529>
+        <font face=”Courier New, Courier, mono”>
       </div>
-    </div>
-    <div class="card" style="width: 21rem;">
-      <img src="images/giardinocard.jpg" height="400px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">MAMP</h5>
-        <p class="card-text"></p>
-        <a href="giardino/giardino.html" class="btn btn-primary">Più info 👆</a>
-      </div>
-    </div>
-    <div class="card" style="width: 20rem;">
-      <img src="images/animalicard.jpg" height="400px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">NAMO</h5>
-        <p class="card-text"></p>
-        <a href="animali/animali.html" class="btn btn-primary">Più info 👆</a>
-      </div>
-    </div>
-    <div class="card" style="width: 21rem;">
-      <img src="images/agricolturacard.jpg" height="400px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">More products</h5>
-        <p class="card-text"></p>
-        <a href="agricoltura/agricoltura.html" class="btn btn-primary">Più info 👆</a>
+    </div>         
+    </div> 
+    <div style="float: left; margin-right: 4px"><img src="images (1)/libri.JPG" alt=”libri”
+      style=”float:left;margin: 10px”></div> <p align="left"><h1>
+      Che cos'è l'edizione del tempo?</h1>
+    <p>Con timeEdition ottieni una documentazione dettagliata del tuo orario di lavoro.</p>
+    Con timeEdition
+      hai lo strumento perfetto per monitorare il tuo tempo</p></div>
+      lavoro e il tempo di
+     lavoro dei tuoi colleghi.</p>
+     Puoi tenere traccia delle spese di lavoro del tuo progetto e fornire
+     ai tuoi clienti una fattura dettagliata.</p>
+     Disponibile per Mac, iPhone e Android.</p>
+     <a href="https://www.mamp.info/b-flat/de/">Try timeEdition for macOS ></a>
+         <hr class="dropdown-divider">
+     <div style="text-align: right"></p>
+     </font>
+                 <br><br>
+                
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <br><br>
+          <font face=”Courier New, Courier, mono”>
+          <div style="float: right; margin-left: 4px"><img src="images (1)/computer.JPG" alt=”libri”
+            style=”float:left;margin: 10px”></div> <p align="right"><h1>
+            Il tempo è denaro!</h1>
+          <p>
+            timeEdition pone grande enfasi sulla facilità d'uso.</p>L'utente vede innanzitutto solo le funzioni</p>
+            necessarie per il monitoraggio giornaliero del tempo: </p>di lavoro, tempo di lavoro trascorso,
+          </p> cliente, progetto e attività.</p>Non dai via il tuo tempo o i tuoi soldi.
+        </p>
+          <hr class="dropdown-divider">
+          <div style="text-align: right"></p>
+          </font>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                       <br><br>
+                       <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <div style=”border: 1px solid #212529>
+                        <font face=”Courier New, Courier, mono”>
+                      </div>
+                    </div>         
+                    </div> 
+                    <div style="float: left; margin-right: 4px"><img src="images (1)/computer1.JPG" alt=”libri”
+                      style=”float:left;margin: 10px”></div> <p align="left"><h1>
+                        timeEdition sul desktop e in viaggio</h1>
+                    <p>
+                      timeEdition è disponibile su più piattaforme: macOS, iOS e Android.
+                      Ciò ti consente di tenere traccia dei tuoi progetti sulla scrivania dell'ufficio,
+                      ma anche mobile quando sei in viaggio per consulenze.
+                      <p>
+                        Tutte le app timeEdition possono essere sincronizzate tramite Dropbox.
+                        Non importa dove stai monitorando il tempo, tutte le tue registrazioni sono sempre disponibili su tutti i tuoi dispositivi.
+                        Nessuna connessione Internet richiesta per la registrazione.
+                        Questo ti dà un'elevata flessibilità per il monitoraggio dei tuoi progetti su piattaforme diverse.
+                    </p>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <br><br>
+                      <center>
+                        <h1>
+                          Caratteristiche
+                        </h1>
+                        </center>
+                        <br><br>
+                        <img src="images (1)/icone (1).JPG" alt=”libri”
+                        <p>
+                          Note per tutte le tue registrazioni
+
+                          Puoi aggiungere una nota a qualsiasi progetto o registrazione, ad es. B. Annota le richieste di modifica a breve termine dei tuoi clienti.
+                          
+                          Codificazione del colore
+                          
+                          Puoi assegnare un colore specifico a ciascuno dei tuoi clienti. Così puoi vedere a colpo d'occhio per quale dei tuoi clienti stai attualmente registrando l'ora.
+                          
+                          Modifica le registrazioni manualmente
+                          
+                          Con timeEdition puoi modificare una qualsiasi delle tue registrazioni in seguito. Quindi non è un problema aggiungere una registrazione dimenticata.
+                          
+                          Esporta registrazioni
+                          
+                          Con timeEdition puoi esportare le tue registrazioni e modificarle ulteriormente in altre applicazioni, ad esempio in Numbers o Excel.
+                        </p>
+                        <img src="images (1)/icone (1).JPG" alt=”icone”
+                        <p>Promemoria delle tue scadenze
+
+Non perdere mai più una scadenza. Lascia che timeEdition ti ricordi le tue scadenze automaticamente e in tempo utile.
+
+In ufficio e in viaggio
+
+timeEdition è disponibile per Mac, iPhone e Android. Puoi usarlo per registrare le tue ore di lavoro ovunque.
+
+Sincronizza tutti i dispositivi
+
+Non importa dove lavori: tutti i tuoi progetti e le tue registrazioni sono sempre con te.
+
+Esportazione calendario
+
+Esporta le tue registrazioni facilmente e automaticamente sul tuo calendario.
+</p>
+                        
+                        
+                        
+<center>
+  <h1>
+    Questo è ciò che i clienti dicono di timeEdition
+</h1>
+</center>        
+<center>
+  <h5>
+timeEdition ha già reso più facile per innumerevoli clienti registrare i loro tempi di lavoro.   
+</h5>
+<br><br>
+</center>  
+
+<img src="images (1)/icone (3).JPG" alt=”icone”
+
+                    <p>
+"Grazie alla funzione di esportazione sul mio calendario Google, posso tenere traccia di tutte le mie scadenze."
+
+Peter R., designer
+
+"Il monitoraggio del tempo non è mai stato così facile per me."
+
+David L., Autore
+
+"Addio schede attività. Grazie per questo!"
+
+Sarah L., programmatrice
+
+"timeEdition mi aiuta a strutturare i miei progetti ea controllare nel dettaglio il lavoro svolto."
+
+Rose M., editor video</p>
+
+                        <center>
+                          <h1>
+                        FAQ - Domande generali
+                      </h1>
+                      <br><br>
+                    </center>
+
+
+<p>
+  L'abbonamento a timeEdition è basato?
+  <p>
+  No, non hai bisogno di un abbonamento per timeEdition.</p>
+  <br><br>
+  <p>Quali piattaforme sono supportate da timeEdition?</p>
+  <p> timeEdition è disponibile per macOS, iOS e Android.</p>
+  <br><br>
+  <p>Quanti dispositivi posso sincronizzare con il mio database timeEdition?</p>
+  <p> Puoi sincronizzare con un numero illimitato di dispositivi.</p>
+  <br><br>
+  <p>Di cosa ho bisogno per la sincronizzazione?</p>
+  <p> È necessario un account Dropbox (gratuito).</p>
+  <br><br>
+  <p> Posso monitorare le mie entrate con timeEdition?</p>
+  <p> Sì. Basta impostare la tariffa oraria delle tue attività o utilizzare le tariffe orarie individuali
+  per le singole attività. Ora timeEdition terrà traccia delle tue entrate e del tuo orario di lavoro.</p>
+  <br><br>
+  <p>TimeEdition può sostituire il mio foglio presenze settimanale?</p>
+  Assolutamente. La funzione TimeEdition Smart-Filter consente di impostare e salvare un filtro come
+  <p> "questa settimana". Ciò ti consente di esportare le tue registrazioni alla fine della settimana.</p>
+  <br><br>
+  <p>Posso visualizzare le mie registrazioni in Apple Calendar o Google Calendar?</p>
+  <p>Sì. Se lo desideri, timeEdition scrive tutte le tue registrazioni nel tuo Calendario.
+  Puoi scegliere tra scrivere tutte le registrazioni in un unico calendario o lasciare che timeEdition crei un calendario
+  individuale per ciascuno dei tuoi clienti.</p>
+  <br><br>
+  <p>Quali formati supporta timeEdition per l'esportazione di registrazioni e report?</p>
+  <p>timeEdition ti consente di esportare in Excel, CSV, XML, iCal e PDF.</p>
+  <br><br>
+  <p> Posso aggiungere una registrazione in un secondo momento?</p>
+  <p> Sì. Puoi aggiungere registrazioni in qualsiasi momento.</p>
+  <br><br>
+  <p>Posso modificare una registrazione in un secondo momento nel caso in cui abbia scelto il client sbagliato?</p>
+  <p>  Sì. Ogni singola registrazione è modificabile. Quindi puoi ovviamente anche cambiare il cliente in questo modo.</p>
+  <br><br>
+  <p> Posso impostare uno sforzo di progetto stimato in timeEdition?</p>
+  <p>Sì. Ciò è particolarmente utile quando si desidera verificare l'accuratezza della propria stima rispetto
+  al tempo di lavoro effettivamente eseguito.</p>
+  <br><br>
+  <p> Posso impostare scadenze per i progetti?</p>
+  <p>Sì. Puoi impostare una scadenza per il tuo progetto. Riceverai un avviso se stai per perderlo.</p>
+</p>
+
+<br><br>
+<center>
+  <h1>
+    Schermate
+</h1>
+</center>
+<br><br>
+<img src="images (1)/tel.JPG" alt=”telefoni”>
+<br><br>
+<img src="images (1)/tel1.JPG" alt=”telefoni”>
+<br><br>
+<img src="images (1)/tel2.JPG" alt=”telefoni”>
+<br><br>
+
+<center>
+  <h2>
+    Rimani aggiornato
+</h2>
+</center>
+<br><br>
+<center>
+  <h4>
+    Ti terremo informato sulle nuove funzionalità, sugli inviti ai beta test e altro ancora.
+</h4>
+</center>
+<br><br>
+<center>
+  <h3>
+    <a itemprop="sameAs" href="https://twitter.com/timeEditionApp" target="_blank"><i class="fab fa-twitter mr-1"></i>Segui timeEdition su Twitter</a>
+</h3>
+</center>
+                     </p>
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <br><br>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
- 
 
 
 
-<section class="text-center">
-    <img src="images/log.jpg" style="padding-top: 20px;">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="ligth">
-              <p></p>
-</section>
-</div>
+
+
+      <!--card  1080x1080 -->
+
+          
 
 
 
-<div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="orto/orto.html" class="nav-link px-2 text-muted">MAMP PRO</a></li>
-        <li class="nav-item"><a href="giardino/giardino.html" class="nav-link px-2 text-muted">MAMP</a></li>
-        <li class="nav-item"><a href="animali/animali.html" class="nav-link px-2 text-muted">NAMO</a></li>
-        <li class="nav-item"><a href="agricoltura/agricoltura.html" class="nav-link px-2 text-muted">More products</a></li>
-      </ul>
-      <p class="text-center text-muted">© 2021 Company, Inc</p>
-    </footer>
-  </div>
+
+
+
+
+
+
+
+
       
-  </body>
-</html>
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    
+  
     
 
-  </body>
-</html>
+
+
+
+      <!--footer-->
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br
